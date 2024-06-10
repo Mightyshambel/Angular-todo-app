@@ -15,5 +15,9 @@ import { DUMMY_USERS } from '../dummy-users';
 export class AppComponent {
   title = 'angular-todo-app';
   users = DUMMY_USERS;
+   
 
+  onSelectedUser(id:string) {
+    console.log("the users with id num"+ id )
+  }
 }
