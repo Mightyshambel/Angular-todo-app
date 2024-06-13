@@ -13,7 +13,7 @@ export class TasksComponent {
   users=DUMMY_USERS
 
 
-  @Input({ required: true }) name!: string
+  @Input({ required: true }) name?: string
  
   
   
